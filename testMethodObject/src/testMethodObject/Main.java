@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args)
 			throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 
-		Coche coche = new Coche("Mercedes", "Benz");
+		Coche coche = new Coche("Mercedes", "Benz",4);
 
 		System.out.println(coche);
 
@@ -23,7 +23,7 @@ public class Main {
 		Class clase = o.getClass();
 		Method[] metodos = clase.getMethods();
 
-		// Variable que contiene el número de parámetros que posee un método de una
+		// Variable que contiene el nï¿½mero de parï¿½metros que posee un mï¿½todo de una
 		// clase
 		int parametros = metodos[2].getParameterCount();
 
@@ -34,7 +34,7 @@ public class Main {
 			if (m.getName().startsWith("get")) {
 
 				Object ret = m.invoke(o);
-				System.out.println("NOMBRE MÉTODO INVOCADO :" + m.getName() + "  RESULTADO INVOCACIÓN: " + ret);
+				System.out.println("NOMBRE Mï¿½TODO INVOCADO :" + m.getName() + "  RESULTADO INVOCACIï¿½N: " + ret);
 
 			}
 		}

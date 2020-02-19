@@ -1,41 +1,56 @@
 package testMethodObject;
 
 public class Coche {
-	protected String Fabricante;
-	protected String Modelo;
+	protected String fabricante;
+	protected String modelo;
+	protected int numeroRuedas;
+	
+	public Coche() {
+		super();
+	}
+	
 
-//test
 	public String getFabricante() {
-		return Fabricante;
+		return fabricante;
 	}
 
-	// random comment
 
-	public void setFabricante(String fabricante) {
-		Fabricante = fabricante;
+	public void setfabricante(String fabricante) {
+		this.fabricante = fabricante;
 	}
 
-	public String getModelo() {
-		return Modelo;
+	public String getmodelo() {
+		return modelo;
 	}
 
 	public void setModelo(String modelo) {
-		Modelo = modelo;
+		this.modelo = modelo;
 	}
 
 	@Override
 	public String toString() {
-		return "Coche [Fabricante=" + Fabricante + ", Modelo=" + Modelo + "]";
+		return "Coche [fabricante=" + fabricante + ", Modelo=" + modelo + "]";
 	}
 
-	public Coche(String fabricante, String modelo) {
+	public Coche(String fabricante, String modelo, int i) {
 		super();
-		Fabricante = fabricante;
-		Modelo = modelo;
+		this.fabricante = fabricante;
+		this.modelo = modelo;
+		this.numeroRuedas = i;
 	}
 
-	public Coche() {
-		super();
+
+	public int getNumeroRuedas() {
+		return numeroRuedas;
 	}
+
+
+	public void setNumeroRuedas(int numeroRuedas) {
+		this.numeroRuedas = numeroRuedas;
+	}
+	
+	
+
+	
 
 }
