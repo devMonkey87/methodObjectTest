@@ -16,6 +16,11 @@ public class Main {
 
 		probarMethod(coche);
 	}
+	
+	
+	public void deleteMe() {}
+	
+	
 
 	public static void probarMethod(Object o)
 			throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
