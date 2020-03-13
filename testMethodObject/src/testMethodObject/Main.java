@@ -29,6 +29,10 @@ public int hi() {
 }
 	
 	
+	public boolean fixMe(){
+		
+		return false;
+	}
 
 	public static void probarMethod(Object o)
 			throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
