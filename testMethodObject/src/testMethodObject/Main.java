@@ -22,6 +22,11 @@ public class Main {
 public String newMethod(){
 	return "hello";
 }
+
+
+public int hi() {
+	return 3;
+}
 	
 	
 
