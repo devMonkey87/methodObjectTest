@@ -18,8 +18,7 @@ public class Main {
 	}
 	
 	
-	public void deleteMe() {}
-	
+public void test()	{}
 	
 
 	public static void probarMethod(Object o)
