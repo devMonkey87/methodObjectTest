@@ -10,5 +10,8 @@ public class Vessel {
 		
 		String todo = "";
 	}
+	
+	
+	public void needThis() {}
 
 }
