@@ -18,7 +18,11 @@ public class Main {
 	}
 	
 	
-public void test()	{}
+
+public String newMethod(){
+	return "hello";
+}
+	
 	
 
 	public static void probarMethod(Object o)
