@@ -22,7 +22,7 @@ public class Main {
 public String newMethod(){
 	return "hello";
 }
-
+// too much
 
 public int hi() {
 	return 3;
