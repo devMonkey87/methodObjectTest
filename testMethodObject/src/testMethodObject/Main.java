@@ -53,6 +53,8 @@ public int hi() {
 				Object ret = m.invoke(o);
 				System.out.println("NOMBRE M�TODO INVOCADO :" + m.getName() + "  RESULTADO INVOCACI�N: " + ret);
 
+				
+				System.out.println("hey");
 			}
 		}
 	}
