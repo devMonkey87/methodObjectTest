@@ -18,7 +18,8 @@ public class Main {
 	}
 	
 	
-	public void deleteMe() {}
+public String newMethod(){
+	return "hello";
 	
 	
 
